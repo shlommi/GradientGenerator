@@ -1,0 +1,18 @@
+{
+  "name": "myGitHub",
+  "version": "1.0.0",
+  "homepage": "https://shlommi.github.io/GradientGenerator",
+  "description": "background gradient color generator",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "shlomi cohen",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
